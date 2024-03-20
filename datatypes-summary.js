@@ -34,3 +34,27 @@ const myFunction = function () {
 }
 
 console.log(typeof myFunction);
+
+///++++++++++++++++++++++++++++         Memory   ++++++++++++++++++++++++++++++++++++++
+
+//Stack (primitive), Heap(Non - Primitive)
+
+let myName = "chethan"
+
+let anotherName = myName;
+anotherName = "checodezz"
+console.log(myName);
+console.log(anotherName);
+
+
+let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+};
+
+let user2 = user1;
+
+user2.email = "hbffhw@fe.nfune"
+
+console.log(user1.email);
+console.log(user2.email);
